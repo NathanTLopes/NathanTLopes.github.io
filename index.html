@@ -11,7 +11,14 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <h1>BOM DIA, TUDO BOM COM VOCÊ?</h1>
+    <h1 id="meuTitulo"></h1>
+    <script>
+        window.onload = function() {
+            var meuInput = localStorage.getItem('meuInput');
+            document.getElementById('meuTitulo').innerHTML = "Bom dia " + meuInput + ", tudo bom?";
+        }
+    </script>
+
     <br><p> Bem vindos ao meu site, aqui eu darei algumas recomendações de jogar com seus amigos e sozinho se preferir. 😁👍
     (Lembrando que é a minha opinião).</p>
     <br>
