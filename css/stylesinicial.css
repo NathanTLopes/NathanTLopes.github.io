@@ -11,6 +11,8 @@ div {
     padding: 80px;
     border-radius: 15px;
     color: #fff;
+    border: solid 3px rgb(219, 219, 17);
+
 }
 h1 {
     text-align: center;
