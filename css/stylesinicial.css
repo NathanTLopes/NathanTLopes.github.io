@@ -44,11 +44,13 @@ footer{
     text-align: center;
     position: relative;
     margin-top: 20px; 
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 5px;
-    border-radius: 15px;
-    width: max-content;
-    margin: auto;
     cursor: context-menu;
-    align-items: flex-end;
+}
+
+footer > small{
+    position: absolute;
+    width: 200px;
+    left: calc(50vw - 100px);
+    bottom: 10px;
+    font-family: Montserral;
 }
