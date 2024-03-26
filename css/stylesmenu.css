@@ -67,7 +67,7 @@ h1 {
     border: solid 3px whitesmoke;
     width: max-content;
     margin: auto;
-    
+    cursor: context-menu;
 }
 
 h2 {
@@ -80,6 +80,7 @@ h2 {
     border: solid 3px whitesmoke;
     width: max-content;
     margin: auto;
+    cursor: context-menu;
 }
 
 p {
@@ -91,6 +92,7 @@ p {
     font-size: 20px;
     width: 70%;
     border: solid 3px rebeccapurple;
+    cursor: context-menu;
 }
 img {
     border: solid 3px cyan;
@@ -135,4 +137,5 @@ footer{
     border-radius: 15px;
     width: max-content;
     margin: auto;
+    cursor: context-menu;
 }
