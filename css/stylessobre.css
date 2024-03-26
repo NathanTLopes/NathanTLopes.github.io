@@ -3,6 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -24,11 +25,6 @@ nav {
     flex-direction: row;
     justify-content: baseline;
 }
-
-#Imagem {
-    width: 5%;
-}
-
 #principal {
     display: inline-flex;
     align-items: center;
@@ -70,19 +66,6 @@ h1 {
     cursor: context-menu;
 }
 
-h2 {
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 5px;
-    border-radius: 15px;
-    color:whitesmoke;
-    font-size: 30px;
-    text-align: center;
-    border: solid 3px whitesmoke;
-    width: max-content;
-    margin: auto;
-    cursor: context-menu;
-}
-
 p {
     background-color: rgba(0, 0, 0, 0.9);
     padding: 5px;
@@ -94,21 +77,6 @@ p {
     border: solid 3px rebeccapurple;
     cursor: context-menu;
 }
-img {
-    border: solid 3px cyan;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.elemento {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .botao {
     border: solid 5px rgb(4, 89, 150);
     border-radius: 25px;
@@ -116,8 +84,7 @@ img {
     background-color: rgb(4, 89, 150);
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
     align-items: center;
-    width: max-content;
-    margin-top: 10px;
+    width: 24.8%;
 }
 
 .botao:hover {
@@ -126,6 +93,23 @@ img {
     transform: scale(1.2);
 }
 
+.link {
+    color: whitesmoke;
+}
+
+.trecho {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 5px;
+    border-radius: 15px;
+    color:whitesmoke;
+    text-align:left;
+    font-size: 15px;
+    width: max-content;
+}
+
+img {
+    border: solid 3px cyan;
+}
 footer{
     color: whitesmoke;
    height: 3vh;
@@ -138,4 +122,8 @@ footer{
     width: max-content;
     margin: auto;
     cursor: context-menu;
+}
+
+#Imagem {
+    width: 5%;
 }
