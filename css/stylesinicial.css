@@ -40,7 +40,7 @@ button:hover {
 }
 footer{
     color: whitesmoke;
-   height: 3vh;
+    height: 3vh;
     text-align: center;
     position: relative;
     margin-top: 20px; 
@@ -50,4 +50,5 @@ footer{
     width: max-content;
     margin: auto;
     cursor: context-menu;
+    align-items: flex-end;
 }
