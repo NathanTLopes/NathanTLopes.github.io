@@ -68,6 +68,7 @@ h1 {
     border: solid 3px whitesmoke;
     width: max-content;
     margin: auto;
+    cursor: context-menu;
 }
 
 p {
@@ -79,6 +80,7 @@ p {
     font-size: 20px;
     width: 70%;
     border: solid 3px rebeccapurple;
+    cursor: context-menu;
 }
 .botao {
     border: solid 5px rgb(4, 89, 150);
@@ -118,7 +120,7 @@ img {
 }
 footer{
     color: whitesmoke;
-   height: 3vh;
+    height: 3vh;
     text-align: center;
     position: relative;
     margin-top: 20px; 
@@ -127,4 +129,5 @@ footer{
     border-radius: 15px;
     width: max-content;
     margin: auto;
+    cursor: context-menu;
 }
