@@ -38,3 +38,15 @@ button:hover {
     background-color: deepskyblue;
     cursor: pointer;
 }
+footer{
+    color: whitesmoke;
+    height: 3vh;
+    text-align: center;
+    position: relative;
+    margin-top: 20px; 
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 5px;
+    border-radius: 15px;
+    width: max-content;
+    margin: auto;
+}
