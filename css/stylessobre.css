@@ -127,6 +127,23 @@ section.sobre .flex{
     transform: scale(1.05);
 }
 
+.sobre .txt-sobre .conta-social .email button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+.sobre .txt-sobre .conta-social .email button:hover{
+    background: white;
+    transform: scale(1.05);
+}
+
 * {
     margin: 0;
     padding: 0;
